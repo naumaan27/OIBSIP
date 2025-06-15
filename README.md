@@ -23,7 +23,7 @@ Classifies iris flowers into three species — *Setosa*, *Versicolor*, and *Virg
 - **Type**: Classification
 - **Input Features**: Sepal & Petal measurements
 - **Models Used**: KNN, SVM, Logistic Regression
-- **Dataset**: [import kagglehubpath = kagglehub.dataset_download("saurabh00007/iriscsv") print("Path to dataset files:", path)]`iris.csv`
+- **Dataset**: `iris.csv`
 
 # Download latest version
 
@@ -38,7 +38,7 @@ Predict the selling price of a car using attributes like age, brand, fuel type, 
 - **Type**: Regression
 - **Input Features**: Car_Name, Year, Present_Price, Owner, etc.
 - **Model Used**: Random Forest Regressor
-- **Dataset**: `car.csv`
+- **Dataset**: `car data.csv`
 - **User Input**: Accepts new car info for live predictions
 
 📈 *Great hands-on project for real-estate/car price estimation problems.*
@@ -52,7 +52,7 @@ Predicts product sales based on advertisement spending across TV, Radio, and New
 - **Type**: Regression
 - **Input Features**: TV, Radio, Newspaper
 - **Model Used**: Linear Regression
-- **Dataset**: `sales_data.csv`
+- **Dataset**: `Advertising.csv`
 - **User Input**: Enter ad spend to predict sales
 
 🧠 *Builds strong fundamentals in simple linear regression.*
@@ -69,7 +69,7 @@ Detects spam messages using NLP techniques and ML classification algorithms.
   - Clean text (remove stopwords, punctuation)
   - TF-IDF vectorization
   - Model: Multinomial Naive Bayes
-- **Dataset**: `spam_data.csv`
+- **Dataset**: `spam.csv`
 - **Live Prediction**: Enter your own message and get prediction
 
 ⚠️ *Essential project to understand NLP, TF-IDF, and spam filtering.*
