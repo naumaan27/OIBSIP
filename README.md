@@ -23,12 +23,9 @@ Classifies iris flowers into three species — *Setosa*, *Versicolor*, and *Virg
 - **Type**: Classification
 - **Input Features**: Sepal & Petal measurements
 - **Models Used**: KNN, SVM, Logistic Regression
-- **Dataset**: [import kagglehub
+- **Dataset**: [import kagglehubpath = kagglehub.dataset_download("saurabh00007/iriscsv") print("Path to dataset files:", path)]`iris.csv`
 
 # Download latest version
-path = kagglehub.dataset_download("saurabh00007/iriscsv")
-
-print("Path to dataset files:", path)]`iris.csv`
 
 📊 *Use this to learn basic classification problems in ML.*
 
