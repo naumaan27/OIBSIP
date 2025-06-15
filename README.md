@@ -99,5 +99,4 @@ Analyzes how unemployment changed over time during the COVID-19 pandemic.
 
 ---
 
-## 💻 Folder Structure
 
