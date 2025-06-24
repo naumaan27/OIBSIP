@@ -5,14 +5,13 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 import numpy as np
 
-df = pd.read_csv(r"C:\Users\nauma\Downloads\archive\Advertising.csv")  
+df = pd.read_csv(r"Dataset: Advertising.csv")  
 
 print("\n Dataset Head:\n", df.head())
 print("\n Null values:\n", df.isnull().sum())
