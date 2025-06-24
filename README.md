@@ -1,19 +1,19 @@
 OIBSIP
 
-# 🤖 Machine Learning Projects Portfolio
+# 🤖 Data Science Projects
 
-Welcome to my Machine Learning Projects Repository! This collection includes beginner-to-intermediate level ML projects built using Python, covering real-world datasets and problem-solving with complete end-to-end workflows.
+Welcome to my Data Science Projects Repository! This collection includes beginner-to-intermediate level DS projects built using Python, covering real-world datasets and problem-solving with complete end-to-end workflows.
 
 ---
 
 ## 📌 Projects Included
 
-1. 🌸 [[Iris Flower Classification](https://github.com/naumaan27/OIBSIP/blob/07415baa7f752db3285dd8040e8ce7b32b4b182b/iris_flower_classification.py)](#1-iris-flower-classification)
-2. 🚘 [Car Price Prediction](#2-car-price-prediction)
-3. 📈 [Sales Prediction](#3-sales-prediction)
-4. 📧 [Email Spam Detection](#4-email-spam-detector)
-5. 📉 [Unemployment Rate Analysis (EDA)](#5-unemployment-rate-analysis-eda)
-
+1. 🌸 [Iris Flower Classification](https://github.com/naumaan27/OIBSIP/blob/main/iris_flower_classification.py)
+2. 📉 [Unemployment Rate Analysis (EDA)](https://github.com/naumaan27/OIBSIP/blob/main/unemployment_analysis.py)
+3. 🚘 [Car Price Prediction](https://github.com/naumaan27/OIBSIP/blob/main/car_price_prediction.py)
+4. 📧 [Email Spam Detection](https://github.com/naumaan27/OIBSIP/blob/main/email_spam_detection.py)
+5. 📈 [Sales Prediction](https://github.com/naumaan27/OIBSIP/blob/main/sales_prediction.py)
+   
 ---
 
 ## 1. 🌸 Iris Flower Classification
@@ -25,13 +25,24 @@ Classifies iris flowers into three species — *Setosa*, *Versicolor*, and *Virg
 - **Models Used**: KNN, SVM, Logistic Regression
 - **Dataset**: `iris.csv`
 
-# Download latest version
-
 📊 *Use this to learn basic classification problems in ML.*
 
 ---
 
-## 2. 🚘 Car Price Prediction
+## 2. 📉 Unemployment Rate Analysis (EDA)
+
+Analyzes how unemployment changed over time during the COVID-19 pandemic.
+
+- **Type**: Exploratory Data Analysis (EDA)
+- **Tools Used**: Pandas, Seaborn, Matplotlib
+- **Insights**: Trends across states, years, and age groups
+- **Dataset**: `unemployment.csv`
+
+📊 *Excellent project for beginners to practice data visualization and storytelling.*
+
+---
+
+## 3. 🚘 Car Price Prediction
 
 Predict the selling price of a car using attributes like age, brand, fuel type, ownership, etc.
 
@@ -42,20 +53,6 @@ Predict the selling price of a car using attributes like age, brand, fuel type, 
 - **User Input**: Accepts new car info for live predictions
 
 📈 *Great hands-on project for real-estate/car price estimation problems.*
-
----
-
-## 3. 📈 Sales Prediction
-
-Predicts product sales based on advertisement spending across TV, Radio, and Newspaper platforms.
-
-- **Type**: Regression
-- **Input Features**: TV, Radio, Newspaper
-- **Model Used**: Linear Regression
-- **Dataset**: `Advertising.csv`
-- **User Input**: Enter ad spend to predict sales
-
-🧠 *Builds strong fundamentals in simple linear regression.*
 
 ---
 
@@ -76,29 +73,32 @@ Detects spam messages using NLP techniques and ML classification algorithms.
 
 ---
 
-## 5. 📉 Unemployment Rate Analysis (EDA)
+## 5. 📈 Sales Prediction
 
-Analyzes how unemployment changed over time during the COVID-19 pandemic.
+Predicts product sales based on advertisement spending across TV, Radio, and Newspaper platforms.
 
-- **Type**: Exploratory Data Analysis (EDA)
-- **Tools Used**: Pandas, Seaborn, Matplotlib
-- **Insights**: Trends across states, years, and age groups
-- **Dataset**: `unemployment.csv`
+- **Type**: Regression
+- **Input Features**: TV, Radio, Newspaper
+- **Model Used**: Linear Regression
+- **Dataset**: `Advertising.csv`
+- **User Input**: Enter ad spend to predict sales
 
-📊 *Excellent project for beginners to practice data visualization and storytelling.*
+🧠 *Builds strong fundamentals in simple linear regression.*
+
 
 ---
 
 ## 🧪 Tech Stack
 
-- Python 3.10+
+- Python 
 - Scikit-learn
 - Pandas & NumPy
 - Seaborn & Matplotlib
 - TfidfVectorizer (Spam)
-- Streamlit (Optional)
 - Pickle (for model deployment)
 
 ---
-
+## Contact Me 
+- [Linked In](https://www.linkedin.com/in/abdulnaumaan)
+- [Gmail](naumaanabdulwadood@gmail.com)
 
