@@ -1,3 +1,7 @@
+# ----------------------------
+# Email Spam Detection Script
+# ----------------------------
+
 import pandas as pd
 import re
 import string
