@@ -1,3 +1,7 @@
+# -----------------------
+# Unemploymnet Analysis Script
+# -----------------------
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -6,9 +10,8 @@ import folium
 from folium.plugins import MarkerCluster
 from datetime import datetime
 
-file2 = pd.read_csv(r"C:\Users\nauma\Downloads\dataset\Unemployment_Rate_upto_11_2020.csv")  # Replace with your actual file path
-file1 = pd.read_csv(r"C:\Users\nauma\Downloads\dataset\Unemployment in India.csv")  # Replace with your actual file path
-
+file2 = pd.read_csv(r"C:\Users\nauma\Downloads\dataset\Unemployment_Rate_upto_11_2020.csv") 
+file1 = pd.read_csv(r"C:\Users\nauma\Downloads\dataset\Unemployment in India.csv")  
 print(file1.head())
 print(file2.head())
 print(file1.info())
